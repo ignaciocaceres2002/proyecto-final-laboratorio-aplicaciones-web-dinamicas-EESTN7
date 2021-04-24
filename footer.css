@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+		font-family: Century Gothic, Arial;
+}
+
+
+.pie {
+	margin: 0 auto;
+	padding: 1.5em;
+	background: tomato;
+	width: 100%;
+	max-width: 800px;
+}
+
+.pie p {
+	font-size: 1.5em;
+	color: white;
+	text-align: center;
+
+}
+
+.pie img {
+	width: 4em;
+	height: 4em;
+	margin: 0 0.2em;
+	border-radius: 50%;
+}
+
+.todo-pie {
+	width: 100%;
+	margin: auto;
+}
+
+.ubicacion {
+	width: 25%;
+
+	display: inline-block;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.redes {
+	width: 25%;
+
+	display: inline-block;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.nombre {
+	width: 49%;
+	height: 5em;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+
+@media screen and (max-width: 800px) {
+
+	.ubicacion {
+	width: 100%;
+	display: block;
+	background: grey;
+	}
+
+	.redes{
+		width: 49%;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+
+	.ubicacion {
+	width: 100%;
+	display: block;
+	background: grey;
+	}
+
+	.nombre {
+	width: 100%;
+	display: block;
+	padding: 1.5em 0;
+}
+
+	.redes{
+		width: 100%;
+		display: block;
+			background: grey;
+	}
+
+}

@@ -1,0 +1,45 @@
+.content-maps {
+	width: 100%;
+	height: 40em;
+}
+
+.content-form {
+	width: 100%;
+	margin: 4em 0;
+}
+
+.contacto {
+	width: 90%;
+	height:  35em;
+	margin: auto;
+	padding: 4em 2em;
+	box-sizing: border-box;
+	border-radius: 5px;
+	/* background-color: rgba(236,38,143,0.3); */
+	background-color: rgba(0,0,0,0.7);
+}
+
+
+	.contacto input, textarea {
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 5px;
+		box-sizing: border-box;
+		font-size: 15px;
+		border-radius: 3px;
+		border: none;
+	}
+
+
+		.contacto textarea {
+			min-height: 70px;
+			max-height: 80px;
+			max-width: 100%;
+			border: none;
+		}
+
+.btn-submit {
+	font-weight: bold;
+	background: tomato;
+	color: #fff;
+}
